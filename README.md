@@ -1,8 +1,10 @@
 # Seidel’s shortest path algorithm implementation for Computational Complexity Theory 2021  course (HSE)
 
-Algorithm implementation is in ```seidel_algo.py``` file.
+Algorithm implementation is in [seidel_algo.py](seidel_algo.py) file.
 
-It receives an adjacency matrix as input and returns distance matrix as output.
+It receives an adjacency matrix as input and returns distance matrix as output. For unreachable vertexes the distance equals 0.
+
+File for building automated testing workflow: [python-package.yml](.github/workflows/python-package.yml)
 
 ## Algorithm brief description
 A - adjacency matrix with size n
